@@ -5,5 +5,17 @@
 {% endblock title %}
 
 {% block content %}
-    lala
+<div class='hero'>
+    <div class='hero-content'>
+        <div class='left'>
+            <h1>Soy desarrollador</h1>
+            <h1>José Bello</h1>
+            <p>Construyo aplicaciones dinámicas en Python usando bases de datos relacionales.</p>
+            <a href='#contacto' class='btn'>Contáctame</a>
+        </div>
+        <div class='right'>
+            <img src='{{ url_for('static', filename='programador.png') }}' width=600px />
+        </div>
+    </div>
+</div>
 {% endblock content %}
