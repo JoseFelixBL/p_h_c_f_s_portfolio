@@ -15,4 +15,4 @@ def index():
 
 @bp.route('/mail', methods=['POST'])
 def mail():
-    return 'lala'
+    return render_template('portfolio/sent_mail.html')
